@@ -13,6 +13,7 @@ gasUsage = window.prompt("How much gas did you use?");
 // divide the miles and gas to eachother and store that into the total result.
 mpgTotal = milesDriven / gasUsage;
 
+// grab the element's id attribute values from the html and replace them with the user's input from the prompt message.
 var elMiles = document.getElementById('miles');
 elMiles.value = milesDriven + " miles";
 
